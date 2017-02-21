@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{FC4F9A9F-06D1-3A04-A834-79C0A7BB8BF9}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>PCL_KINECT</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GitHub\PCL-viewer-for-Kinect-2.0\build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PCL_KINECT.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PCL_KINECT</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GitHub\PCL-viewer-for-Kinect-2.0\build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PCL_KINECT.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PCL_KINECT</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GitHub\PCL-viewer-for-Kinect-2.0\build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PCL_KINECT.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PCL_KINECT</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GitHub\PCL-viewer-for-Kinect-2.0\build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PCL_KINECT.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PCL_KINECT</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\opencv\allbuild;D:\Downloads\opencv\opencv\sources\include;D:\Downloads\opencv\opencv\sources\include\opencv;D:\Downloads\opencv\opencv\sources\modules\cudev\include;D:\Downloads\opencv\opencv\sources\modules\core\include;D:\Downloads\opencv\opencv\sources\modules\cudaarithm\include;D:\Downloads\opencv\opencv\sources\modules\flann\include;D:\Downloads\opencv\opencv\sources\modules\imgproc\include;D:\Downloads\opencv\opencv\sources\modules\ml\include;D:\Downloads\opencv\opencv\sources\modules\video\include;D:\Downloads\opencv\opencv\sources\modules\cudabgsegm\include;D:\Downloads\opencv\opencv\sources\modules\cudafilters\include;D:\Downloads\opencv\opencv\sources\modules\cudaimgproc\include;D:\Downloads\opencv\opencv\sources\modules\cudawarping\include;D:\Downloads\opencv\opencv\sources\modules\imgcodecs\include;D:\Downloads\opencv\opencv\sources\modules\photo\include;D:\Downloads\opencv\opencv\sources\modules\shape\include;D:\Downloads\opencv\opencv\sources\modules\videoio\include;D:\Downloads\opencv\opencv\sources\modules\cudacodec\include;D:\Downloads\opencv\opencv\sources\modules\highgui\include;D:\Downloads\opencv\opencv\sources\modules\objdetect\include;D:\Downloads\opencv\opencv\sources\modules\ts\include;D:\Downloads\opencv\opencv\sources\modules\features2d\include;D:\Downloads\opencv\opencv\sources\modules\calib3d\include;D:\Downloads\opencv\opencv\sources\modules\cudafeatures2d\include;D:\Downloads\opencv\opencv\sources\modules\cudalegacy\include;D:\Downloads\opencv\opencv\sources\modules\cudaobjdetect\include;D:\Downloads\opencv\opencv\sources\modules\cudaoptflow\include;D:\Downloads\opencv\opencv\sources\modules\cudastereo\include;D:\Downloads\opencv\opencv\sources\modules\stitching\include;D:\Downloads\opencv\opencv\sources\modules\superres\include;D:\Downloads\opencv\opencv\sources\modules\videostab\include;D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\kinect_include;D:\GitHub\PCL-viewer-for-Kinect-2.0\third_party\kinect\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\opencv\allbuild;D:\Downloads\opencv\opencv\sources\include;D:\Downloads\opencv\opencv\sources\include\opencv;D:\Downloads\opencv\opencv\sources\modules\cudev\include;D:\Downloads\opencv\opencv\sources\modules\core\include;D:\Downloads\opencv\opencv\sources\modules\cudaarithm\include;D:\Downloads\opencv\opencv\sources\modules\flann\include;D:\Downloads\opencv\opencv\sources\modules\imgproc\include;D:\Downloads\opencv\opencv\sources\modules\ml\include;D:\Downloads\opencv\opencv\sources\modules\video\include;D:\Downloads\opencv\opencv\sources\modules\cudabgsegm\include;D:\Downloads\opencv\opencv\sources\modules\cudafilters\include;D:\Downloads\opencv\opencv\sources\modules\cudaimgproc\include;D:\Downloads\opencv\opencv\sources\modules\cudawarping\include;D:\Downloads\opencv\opencv\sources\modules\imgcodecs\include;D:\Downloads\opencv\opencv\sources\modules\photo\include;D:\Downloads\opencv\opencv\sources\modules\shape\include;D:\Downloads\opencv\opencv\sources\modules\videoio\include;D:\Downloads\opencv\opencv\sources\modules\cudacodec\include;D:\Downloads\opencv\opencv\sources\modules\highgui\include;D:\Downloads\opencv\opencv\sources\modules\objdetect\include;D:\Downloads\opencv\opencv\sources\modules\ts\include;D:\Downloads\opencv\opencv\sources\modules\features2d\include;D:\Downloads\opencv\opencv\sources\modules\calib3d\include;D:\Downloads\opencv\opencv\sources\modules\cudafeatures2d\include;D:\Downloads\opencv\opencv\sources\modules\cudalegacy\include;D:\Downloads\opencv\opencv\sources\modules\cudaobjdetect\include;D:\Downloads\opencv\opencv\sources\modules\cudaoptflow\include;D:\Downloads\opencv\opencv\sources\modules\cudastereo\include;D:\Downloads\opencv\opencv\sources\modules\stitching\include;D:\Downloads\opencv\opencv\sources\modules\superres\include;D:\Downloads\opencv\opencv\sources\modules\videostab\include;D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\kinect_include;D:\GitHub\PCL-viewer-for-Kinect-2.0\third_party\kinect\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\opencv\allbuild;D:\Downloads\opencv\opencv\sources\include;D:\Downloads\opencv\opencv\sources\include\opencv;D:\Downloads\opencv\opencv\sources\modules\cudev\include;D:\Downloads\opencv\opencv\sources\modules\core\include;D:\Downloads\opencv\opencv\sources\modules\cudaarithm\include;D:\Downloads\opencv\opencv\sources\modules\flann\include;D:\Downloads\opencv\opencv\sources\modules\imgproc\include;D:\Downloads\opencv\opencv\sources\modules\ml\include;D:\Downloads\opencv\opencv\sources\modules\video\include;D:\Downloads\opencv\opencv\sources\modules\cudabgsegm\include;D:\Downloads\opencv\opencv\sources\modules\cudafilters\include;D:\Downloads\opencv\opencv\sources\modules\cudaimgproc\include;D:\Downloads\opencv\opencv\sources\modules\cudawarping\include;D:\Downloads\opencv\opencv\sources\modules\imgcodecs\include;D:\Downloads\opencv\opencv\sources\modules\photo\include;D:\Downloads\opencv\opencv\sources\modules\shape\include;D:\Downloads\opencv\opencv\sources\modules\videoio\include;D:\Downloads\opencv\opencv\sources\modules\cudacodec\include;D:\Downloads\opencv\opencv\sources\modules\highgui\include;D:\Downloads\opencv\opencv\sources\modules\objdetect\include;D:\Downloads\opencv\opencv\sources\modules\ts\include;D:\Downloads\opencv\opencv\sources\modules\features2d\include;D:\Downloads\opencv\opencv\sources\modules\calib3d\include;D:\Downloads\opencv\opencv\sources\modules\cudafeatures2d\include;D:\Downloads\opencv\opencv\sources\modules\cudalegacy\include;D:\Downloads\opencv\opencv\sources\modules\cudaobjdetect\include;D:\Downloads\opencv\opencv\sources\modules\cudaoptflow\include;D:\Downloads\opencv\opencv\sources\modules\cudastereo\include;D:\Downloads\opencv\opencv\sources\modules\stitching\include;D:\Downloads\opencv\opencv\sources\modules\superres\include;D:\Downloads\opencv\opencv\sources\modules\videostab\include;D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\kinect_include;D:\GitHub\PCL-viewer-for-Kinect-2.0\third_party\kinect\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;kinect\Debug\AFEM_kinect_lib.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_videostab310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_superres310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_stitching310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_shape310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_photo310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudastereo310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudaoptflow310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudaobjdetect310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudalegacy310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_objdetect310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudaimgproc310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudafeatures2d310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudawarping310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudafilters310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudacodec310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudabgsegm310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_video310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudaarithm310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_calib3d310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_features2d310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_ml310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_highgui310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_videoio310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_imgcodecs310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_imgproc310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_flann310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_core310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudev310d.lib;Kinect20.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.5/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.5/lib/x64/$(Configuration);D:/GitHub/PCL-viewer-for-Kinect-2.0/third_party/kinect/Lib/x64;D:/GitHub/PCL-viewer-for-Kinect-2.0/third_party/kinect/Lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/PCL-viewer-for-Kinect-2.0/build/Debug/PCL_KINECT.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/PCL-viewer-for-Kinect-2.0/build/Debug/PCL_KINECT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\opencv\allbuild;D:\Downloads\opencv\opencv\sources\include;D:\Downloads\opencv\opencv\sources\include\opencv;D:\Downloads\opencv\opencv\sources\modules\cudev\include;D:\Downloads\opencv\opencv\sources\modules\core\include;D:\Downloads\opencv\opencv\sources\modules\cudaarithm\include;D:\Downloads\opencv\opencv\sources\modules\flann\include;D:\Downloads\opencv\opencv\sources\modules\imgproc\include;D:\Downloads\opencv\opencv\sources\modules\ml\include;D:\Downloads\opencv\opencv\sources\modules\video\include;D:\Downloads\opencv\opencv\sources\modules\cudabgsegm\include;D:\Downloads\opencv\opencv\sources\modules\cudafilters\include;D:\Downloads\opencv\opencv\sources\modules\cudaimgproc\include;D:\Downloads\opencv\opencv\sources\modules\cudawarping\include;D:\Downloads\opencv\opencv\sources\modules\imgcodecs\include;D:\Downloads\opencv\opencv\sources\modules\photo\include;D:\Downloads\opencv\opencv\sources\modules\shape\include;D:\Downloads\opencv\opencv\sources\modules\videoio\include;D:\Downloads\opencv\opencv\sources\modules\cudacodec\include;D:\Downloads\opencv\opencv\sources\modules\highgui\include;D:\Downloads\opencv\opencv\sources\modules\objdetect\include;D:\Downloads\opencv\opencv\sources\modules\ts\include;D:\Downloads\opencv\opencv\sources\modules\features2d\include;D:\Downloads\opencv\opencv\sources\modules\calib3d\include;D:\Downloads\opencv\opencv\sources\modules\cudafeatures2d\include;D:\Downloads\opencv\opencv\sources\modules\cudalegacy\include;D:\Downloads\opencv\opencv\sources\modules\cudaobjdetect\include;D:\Downloads\opencv\opencv\sources\modules\cudaoptflow\include;D:\Downloads\opencv\opencv\sources\modules\cudastereo\include;D:\Downloads\opencv\opencv\sources\modules\stitching\include;D:\Downloads\opencv\opencv\sources\modules\superres\include;D:\Downloads\opencv\opencv\sources\modules\videostab\include;D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\kinect_include;D:\GitHub\PCL-viewer-for-Kinect-2.0\third_party\kinect\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\opencv\allbuild;D:\Downloads\opencv\opencv\sources\include;D:\Downloads\opencv\opencv\sources\include\opencv;D:\Downloads\opencv\opencv\sources\modules\cudev\include;D:\Downloads\opencv\opencv\sources\modules\core\include;D:\Downloads\opencv\opencv\sources\modules\cudaarithm\include;D:\Downloads\opencv\opencv\sources\modules\flann\include;D:\Downloads\opencv\opencv\sources\modules\imgproc\include;D:\Downloads\opencv\opencv\sources\modules\ml\include;D:\Downloads\opencv\opencv\sources\modules\video\include;D:\Downloads\opencv\opencv\sources\modules\cudabgsegm\include;D:\Downloads\opencv\opencv\sources\modules\cudafilters\include;D:\Downloads\opencv\opencv\sources\modules\cudaimgproc\include;D:\Downloads\opencv\opencv\sources\modules\cudawarping\include;D:\Downloads\opencv\opencv\sources\modules\imgcodecs\include;D:\Downloads\opencv\opencv\sources\modules\photo\include;D:\Downloads\opencv\opencv\sources\modules\shape\include;D:\Downloads\opencv\opencv\sources\modules\videoio\include;D:\Downloads\opencv\opencv\sources\modules\cudacodec\include;D:\Downloads\opencv\opencv\sources\modules\highgui\include;D:\Downloads\opencv\opencv\sources\modules\objdetect\include;D:\Downloads\opencv\opencv\sources\modules\ts\include;D:\Downloads\opencv\opencv\sources\modules\features2d\include;D:\Downloads\opencv\opencv\sources\modules\calib3d\include;D:\Downloads\opencv\opencv\sources\modules\cudafeatures2d\include;D:\Downloads\opencv\opencv\sources\modules\cudalegacy\include;D:\Downloads\opencv\opencv\sources\modules\cudaobjdetect\include;D:\Downloads\opencv\opencv\sources\modules\cudaoptflow\include;D:\Downloads\opencv\opencv\sources\modules\cudastereo\include;D:\Downloads\opencv\opencv\sources\modules\stitching\include;D:\Downloads\opencv\opencv\sources\modules\superres\include;D:\Downloads\opencv\opencv\sources\modules\videostab\include;D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\kinect_include;D:\GitHub\PCL-viewer-for-Kinect-2.0\third_party\kinect\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\opencv\allbuild;D:\Downloads\opencv\opencv\sources\include;D:\Downloads\opencv\opencv\sources\include\opencv;D:\Downloads\opencv\opencv\sources\modules\cudev\include;D:\Downloads\opencv\opencv\sources\modules\core\include;D:\Downloads\opencv\opencv\sources\modules\cudaarithm\include;D:\Downloads\opencv\opencv\sources\modules\flann\include;D:\Downloads\opencv\opencv\sources\modules\imgproc\include;D:\Downloads\opencv\opencv\sources\modules\ml\include;D:\Downloads\opencv\opencv\sources\modules\video\include;D:\Downloads\opencv\opencv\sources\modules\cudabgsegm\include;D:\Downloads\opencv\opencv\sources\modules\cudafilters\include;D:\Downloads\opencv\opencv\sources\modules\cudaimgproc\include;D:\Downloads\opencv\opencv\sources\modules\cudawarping\include;D:\Downloads\opencv\opencv\sources\modules\imgcodecs\include;D:\Downloads\opencv\opencv\sources\modules\photo\include;D:\Downloads\opencv\opencv\sources\modules\shape\include;D:\Downloads\opencv\opencv\sources\modules\videoio\include;D:\Downloads\opencv\opencv\sources\modules\cudacodec\include;D:\Downloads\opencv\opencv\sources\modules\highgui\include;D:\Downloads\opencv\opencv\sources\modules\objdetect\include;D:\Downloads\opencv\opencv\sources\modules\ts\include;D:\Downloads\opencv\opencv\sources\modules\features2d\include;D:\Downloads\opencv\opencv\sources\modules\calib3d\include;D:\Downloads\opencv\opencv\sources\modules\cudafeatures2d\include;D:\Downloads\opencv\opencv\sources\modules\cudalegacy\include;D:\Downloads\opencv\opencv\sources\modules\cudaobjdetect\include;D:\Downloads\opencv\opencv\sources\modules\cudaoptflow\include;D:\Downloads\opencv\opencv\sources\modules\cudastereo\include;D:\Downloads\opencv\opencv\sources\modules\stitching\include;D:\Downloads\opencv\opencv\sources\modules\superres\include;D:\Downloads\opencv\opencv\sources\modules\videostab\include;D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\kinect_include;D:\GitHub\PCL-viewer-for-Kinect-2.0\third_party\kinect\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;kinect\Release\AFEM_kinect_lib.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_videostab310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_superres310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_stitching310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_shape310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_photo310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_cudastereo310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_cudaoptflow310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_cudaobjdetect310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_cudalegacy310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_objdetect310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_cudaimgproc310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_cudafeatures2d310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_cudawarping310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_cudafilters310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_cudacodec310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_cudabgsegm310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_video310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_cudaarithm310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_calib3d310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_features2d310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_ml310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_highgui310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_videoio310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_imgcodecs310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_imgproc310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_flann310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_core310.lib;D:\Downloads\opencv\opencv\allbuild\lib\Release\opencv_cudev310.lib;Kinect20.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.5/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.5/lib/x64/$(Configuration);D:/GitHub/PCL-viewer-for-Kinect-2.0/third_party/kinect/Lib/x64;D:/GitHub/PCL-viewer-for-Kinect-2.0/third_party/kinect/Lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/PCL-viewer-for-Kinect-2.0/build/Release/PCL_KINECT.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/PCL-viewer-for-Kinect-2.0/build/Release/PCL_KINECT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\opencv\allbuild;D:\Downloads\opencv\opencv\sources\include;D:\Downloads\opencv\opencv\sources\include\opencv;D:\Downloads\opencv\opencv\sources\modules\cudev\include;D:\Downloads\opencv\opencv\sources\modules\core\include;D:\Downloads\opencv\opencv\sources\modules\cudaarithm\include;D:\Downloads\opencv\opencv\sources\modules\flann\include;D:\Downloads\opencv\opencv\sources\modules\imgproc\include;D:\Downloads\opencv\opencv\sources\modules\ml\include;D:\Downloads\opencv\opencv\sources\modules\video\include;D:\Downloads\opencv\opencv\sources\modules\cudabgsegm\include;D:\Downloads\opencv\opencv\sources\modules\cudafilters\include;D:\Downloads\opencv\opencv\sources\modules\cudaimgproc\include;D:\Downloads\opencv\opencv\sources\modules\cudawarping\include;D:\Downloads\opencv\opencv\sources\modules\imgcodecs\include;D:\Downloads\opencv\opencv\sources\modules\photo\include;D:\Downloads\opencv\opencv\sources\modules\shape\include;D:\Downloads\opencv\opencv\sources\modules\videoio\include;D:\Downloads\opencv\opencv\sources\modules\cudacodec\include;D:\Downloads\opencv\opencv\sources\modules\highgui\include;D:\Downloads\opencv\opencv\sources\modules\objdetect\include;D:\Downloads\opencv\opencv\sources\modules\ts\include;D:\Downloads\opencv\opencv\sources\modules\features2d\include;D:\Downloads\opencv\opencv\sources\modules\calib3d\include;D:\Downloads\opencv\opencv\sources\modules\cudafeatures2d\include;D:\Downloads\opencv\opencv\sources\modules\cudalegacy\include;D:\Downloads\opencv\opencv\sources\modules\cudaobjdetect\include;D:\Downloads\opencv\opencv\sources\modules\cudaoptflow\include;D:\Downloads\opencv\opencv\sources\modules\cudastereo\include;D:\Downloads\opencv\opencv\sources\modules\stitching\include;D:\Downloads\opencv\opencv\sources\modules\superres\include;D:\Downloads\opencv\opencv\sources\modules\videostab\include;D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\kinect_include;D:\GitHub\PCL-viewer-for-Kinect-2.0\third_party\kinect\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\opencv\allbuild;D:\Downloads\opencv\opencv\sources\include;D:\Downloads\opencv\opencv\sources\include\opencv;D:\Downloads\opencv\opencv\sources\modules\cudev\include;D:\Downloads\opencv\opencv\sources\modules\core\include;D:\Downloads\opencv\opencv\sources\modules\cudaarithm\include;D:\Downloads\opencv\opencv\sources\modules\flann\include;D:\Downloads\opencv\opencv\sources\modules\imgproc\include;D:\Downloads\opencv\opencv\sources\modules\ml\include;D:\Downloads\opencv\opencv\sources\modules\video\include;D:\Downloads\opencv\opencv\sources\modules\cudabgsegm\include;D:\Downloads\opencv\opencv\sources\modules\cudafilters\include;D:\Downloads\opencv\opencv\sources\modules\cudaimgproc\include;D:\Downloads\opencv\opencv\sources\modules\cudawarping\include;D:\Downloads\opencv\opencv\sources\modules\imgcodecs\include;D:\Downloads\opencv\opencv\sources\modules\photo\include;D:\Downloads\opencv\opencv\sources\modules\shape\include;D:\Downloads\opencv\opencv\sources\modules\videoio\include;D:\Downloads\opencv\opencv\sources\modules\cudacodec\include;D:\Downloads\opencv\opencv\sources\modules\highgui\include;D:\Downloads\opencv\opencv\sources\modules\objdetect\include;D:\Downloads\opencv\opencv\sources\modules\ts\include;D:\Downloads\opencv\opencv\sources\modules\features2d\include;D:\Downloads\opencv\opencv\sources\modules\calib3d\include;D:\Downloads\opencv\opencv\sources\modules\cudafeatures2d\include;D:\Downloads\opencv\opencv\sources\modules\cudalegacy\include;D:\Downloads\opencv\opencv\sources\modules\cudaobjdetect\include;D:\Downloads\opencv\opencv\sources\modules\cudaoptflow\include;D:\Downloads\opencv\opencv\sources\modules\cudastereo\include;D:\Downloads\opencv\opencv\sources\modules\stitching\include;D:\Downloads\opencv\opencv\sources\modules\superres\include;D:\Downloads\opencv\opencv\sources\modules\videostab\include;D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\kinect_include;D:\GitHub\PCL-viewer-for-Kinect-2.0\third_party\kinect\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\opencv\allbuild;D:\Downloads\opencv\opencv\sources\include;D:\Downloads\opencv\opencv\sources\include\opencv;D:\Downloads\opencv\opencv\sources\modules\cudev\include;D:\Downloads\opencv\opencv\sources\modules\core\include;D:\Downloads\opencv\opencv\sources\modules\cudaarithm\include;D:\Downloads\opencv\opencv\sources\modules\flann\include;D:\Downloads\opencv\opencv\sources\modules\imgproc\include;D:\Downloads\opencv\opencv\sources\modules\ml\include;D:\Downloads\opencv\opencv\sources\modules\video\include;D:\Downloads\opencv\opencv\sources\modules\cudabgsegm\include;D:\Downloads\opencv\opencv\sources\modules\cudafilters\include;D:\Downloads\opencv\opencv\sources\modules\cudaimgproc\include;D:\Downloads\opencv\opencv\sources\modules\cudawarping\include;D:\Downloads\opencv\opencv\sources\modules\imgcodecs\include;D:\Downloads\opencv\opencv\sources\modules\photo\include;D:\Downloads\opencv\opencv\sources\modules\shape\include;D:\Downloads\opencv\opencv\sources\modules\videoio\include;D:\Downloads\opencv\opencv\sources\modules\cudacodec\include;D:\Downloads\opencv\opencv\sources\modules\highgui\include;D:\Downloads\opencv\opencv\sources\modules\objdetect\include;D:\Downloads\opencv\opencv\sources\modules\ts\include;D:\Downloads\opencv\opencv\sources\modules\features2d\include;D:\Downloads\opencv\opencv\sources\modules\calib3d\include;D:\Downloads\opencv\opencv\sources\modules\cudafeatures2d\include;D:\Downloads\opencv\opencv\sources\modules\cudalegacy\include;D:\Downloads\opencv\opencv\sources\modules\cudaobjdetect\include;D:\Downloads\opencv\opencv\sources\modules\cudaoptflow\include;D:\Downloads\opencv\opencv\sources\modules\cudastereo\include;D:\Downloads\opencv\opencv\sources\modules\stitching\include;D:\Downloads\opencv\opencv\sources\modules\superres\include;D:\Downloads\opencv\opencv\sources\modules\videostab\include;D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\kinect_include;D:\GitHub\PCL-viewer-for-Kinect-2.0\third_party\kinect\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;kinect\MinSizeRel\AFEM_kinect_lib.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_videostab310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_superres310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_stitching310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_shape310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_photo310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudastereo310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudaoptflow310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudaobjdetect310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudalegacy310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_objdetect310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudaimgproc310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudafeatures2d310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudawarping310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudafilters310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudacodec310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudabgsegm310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_video310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudaarithm310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_calib3d310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_features2d310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_ml310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_highgui310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_videoio310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_imgcodecs310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_imgproc310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_flann310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_core310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudev310d.lib;Kinect20.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.5/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.5/lib/x64/$(Configuration);D:/GitHub/PCL-viewer-for-Kinect-2.0/third_party/kinect/Lib/x64;D:/GitHub/PCL-viewer-for-Kinect-2.0/third_party/kinect/Lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/PCL-viewer-for-Kinect-2.0/build/MinSizeRel/PCL_KINECT.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/PCL-viewer-for-Kinect-2.0/build/MinSizeRel/PCL_KINECT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\opencv\allbuild;D:\Downloads\opencv\opencv\sources\include;D:\Downloads\opencv\opencv\sources\include\opencv;D:\Downloads\opencv\opencv\sources\modules\cudev\include;D:\Downloads\opencv\opencv\sources\modules\core\include;D:\Downloads\opencv\opencv\sources\modules\cudaarithm\include;D:\Downloads\opencv\opencv\sources\modules\flann\include;D:\Downloads\opencv\opencv\sources\modules\imgproc\include;D:\Downloads\opencv\opencv\sources\modules\ml\include;D:\Downloads\opencv\opencv\sources\modules\video\include;D:\Downloads\opencv\opencv\sources\modules\cudabgsegm\include;D:\Downloads\opencv\opencv\sources\modules\cudafilters\include;D:\Downloads\opencv\opencv\sources\modules\cudaimgproc\include;D:\Downloads\opencv\opencv\sources\modules\cudawarping\include;D:\Downloads\opencv\opencv\sources\modules\imgcodecs\include;D:\Downloads\opencv\opencv\sources\modules\photo\include;D:\Downloads\opencv\opencv\sources\modules\shape\include;D:\Downloads\opencv\opencv\sources\modules\videoio\include;D:\Downloads\opencv\opencv\sources\modules\cudacodec\include;D:\Downloads\opencv\opencv\sources\modules\highgui\include;D:\Downloads\opencv\opencv\sources\modules\objdetect\include;D:\Downloads\opencv\opencv\sources\modules\ts\include;D:\Downloads\opencv\opencv\sources\modules\features2d\include;D:\Downloads\opencv\opencv\sources\modules\calib3d\include;D:\Downloads\opencv\opencv\sources\modules\cudafeatures2d\include;D:\Downloads\opencv\opencv\sources\modules\cudalegacy\include;D:\Downloads\opencv\opencv\sources\modules\cudaobjdetect\include;D:\Downloads\opencv\opencv\sources\modules\cudaoptflow\include;D:\Downloads\opencv\opencv\sources\modules\cudastereo\include;D:\Downloads\opencv\opencv\sources\modules\stitching\include;D:\Downloads\opencv\opencv\sources\modules\superres\include;D:\Downloads\opencv\opencv\sources\modules\videostab\include;D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\kinect_include;D:\GitHub\PCL-viewer-for-Kinect-2.0\third_party\kinect\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\opencv\allbuild;D:\Downloads\opencv\opencv\sources\include;D:\Downloads\opencv\opencv\sources\include\opencv;D:\Downloads\opencv\opencv\sources\modules\cudev\include;D:\Downloads\opencv\opencv\sources\modules\core\include;D:\Downloads\opencv\opencv\sources\modules\cudaarithm\include;D:\Downloads\opencv\opencv\sources\modules\flann\include;D:\Downloads\opencv\opencv\sources\modules\imgproc\include;D:\Downloads\opencv\opencv\sources\modules\ml\include;D:\Downloads\opencv\opencv\sources\modules\video\include;D:\Downloads\opencv\opencv\sources\modules\cudabgsegm\include;D:\Downloads\opencv\opencv\sources\modules\cudafilters\include;D:\Downloads\opencv\opencv\sources\modules\cudaimgproc\include;D:\Downloads\opencv\opencv\sources\modules\cudawarping\include;D:\Downloads\opencv\opencv\sources\modules\imgcodecs\include;D:\Downloads\opencv\opencv\sources\modules\photo\include;D:\Downloads\opencv\opencv\sources\modules\shape\include;D:\Downloads\opencv\opencv\sources\modules\videoio\include;D:\Downloads\opencv\opencv\sources\modules\cudacodec\include;D:\Downloads\opencv\opencv\sources\modules\highgui\include;D:\Downloads\opencv\opencv\sources\modules\objdetect\include;D:\Downloads\opencv\opencv\sources\modules\ts\include;D:\Downloads\opencv\opencv\sources\modules\features2d\include;D:\Downloads\opencv\opencv\sources\modules\calib3d\include;D:\Downloads\opencv\opencv\sources\modules\cudafeatures2d\include;D:\Downloads\opencv\opencv\sources\modules\cudalegacy\include;D:\Downloads\opencv\opencv\sources\modules\cudaobjdetect\include;D:\Downloads\opencv\opencv\sources\modules\cudaoptflow\include;D:\Downloads\opencv\opencv\sources\modules\cudastereo\include;D:\Downloads\opencv\opencv\sources\modules\stitching\include;D:\Downloads\opencv\opencv\sources\modules\superres\include;D:\Downloads\opencv\opencv\sources\modules\videostab\include;D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\kinect_include;D:\GitHub\PCL-viewer-for-Kinect-2.0\third_party\kinect\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\opencv\allbuild;D:\Downloads\opencv\opencv\sources\include;D:\Downloads\opencv\opencv\sources\include\opencv;D:\Downloads\opencv\opencv\sources\modules\cudev\include;D:\Downloads\opencv\opencv\sources\modules\core\include;D:\Downloads\opencv\opencv\sources\modules\cudaarithm\include;D:\Downloads\opencv\opencv\sources\modules\flann\include;D:\Downloads\opencv\opencv\sources\modules\imgproc\include;D:\Downloads\opencv\opencv\sources\modules\ml\include;D:\Downloads\opencv\opencv\sources\modules\video\include;D:\Downloads\opencv\opencv\sources\modules\cudabgsegm\include;D:\Downloads\opencv\opencv\sources\modules\cudafilters\include;D:\Downloads\opencv\opencv\sources\modules\cudaimgproc\include;D:\Downloads\opencv\opencv\sources\modules\cudawarping\include;D:\Downloads\opencv\opencv\sources\modules\imgcodecs\include;D:\Downloads\opencv\opencv\sources\modules\photo\include;D:\Downloads\opencv\opencv\sources\modules\shape\include;D:\Downloads\opencv\opencv\sources\modules\videoio\include;D:\Downloads\opencv\opencv\sources\modules\cudacodec\include;D:\Downloads\opencv\opencv\sources\modules\highgui\include;D:\Downloads\opencv\opencv\sources\modules\objdetect\include;D:\Downloads\opencv\opencv\sources\modules\ts\include;D:\Downloads\opencv\opencv\sources\modules\features2d\include;D:\Downloads\opencv\opencv\sources\modules\calib3d\include;D:\Downloads\opencv\opencv\sources\modules\cudafeatures2d\include;D:\Downloads\opencv\opencv\sources\modules\cudalegacy\include;D:\Downloads\opencv\opencv\sources\modules\cudaobjdetect\include;D:\Downloads\opencv\opencv\sources\modules\cudaoptflow\include;D:\Downloads\opencv\opencv\sources\modules\cudastereo\include;D:\Downloads\opencv\opencv\sources\modules\stitching\include;D:\Downloads\opencv\opencv\sources\modules\superres\include;D:\Downloads\opencv\opencv\sources\modules\videostab\include;D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\kinect_include;D:\GitHub\PCL-viewer-for-Kinect-2.0\third_party\kinect\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;kinect\RelWithDebInfo\AFEM_kinect_lib.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_videostab310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_superres310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_stitching310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_shape310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_photo310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudastereo310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudaoptflow310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudaobjdetect310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudalegacy310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_objdetect310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudaimgproc310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudafeatures2d310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudawarping310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudafilters310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudacodec310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudabgsegm310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_video310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudaarithm310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_calib3d310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_features2d310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_ml310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_highgui310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_videoio310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_imgcodecs310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_imgproc310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_flann310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_core310d.lib;D:\Downloads\opencv\opencv\allbuild\lib\Debug\opencv_cudev310d.lib;Kinect20.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.5/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.5/lib/x64/$(Configuration);D:/GitHub/PCL-viewer-for-Kinect-2.0/third_party/kinect/Lib/x64;D:/GitHub/PCL-viewer-for-Kinect-2.0/third_party/kinect/Lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/PCL-viewer-for-Kinect-2.0/build/RelWithDebInfo/PCL_KINECT.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/PCL-viewer-for-Kinect-2.0/build/RelWithDebInfo/PCL_KINECT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\PCL-viewer-for-Kinect-2.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/GitHub/PCL-viewer-for-Kinect-2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/GitHub/PCL-viewer-for-Kinect-2.0 -BD:/GitHub/PCL-viewer-for-Kinect-2.0/build --check-stamp-file D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/GitHub/PCL-viewer-for-Kinect-2.0/CMakeLists.txt;D:\GitHub\PCL-viewer-for-Kinect-2.0\CMakeLists.txt;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeCCompiler.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Downloads\opencv\opencv\allbuild\OpenCVConfig-version.cmake;D:\Downloads\opencv\opencv\allbuild\OpenCVConfig.cmake;D:\Downloads\opencv\opencv\allbuild\OpenCVModules.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindCUDA.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindCUDA\select_compute_arch.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/GitHub/PCL-viewer-for-Kinect-2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/GitHub/PCL-viewer-for-Kinect-2.0 -BD:/GitHub/PCL-viewer-for-Kinect-2.0/build --check-stamp-file D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/GitHub/PCL-viewer-for-Kinect-2.0/CMakeLists.txt;D:\GitHub\PCL-viewer-for-Kinect-2.0\CMakeLists.txt;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeCCompiler.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Downloads\opencv\opencv\allbuild\OpenCVConfig-version.cmake;D:\Downloads\opencv\opencv\allbuild\OpenCVConfig.cmake;D:\Downloads\opencv\opencv\allbuild\OpenCVModules.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindCUDA.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindCUDA\select_compute_arch.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/GitHub/PCL-viewer-for-Kinect-2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/GitHub/PCL-viewer-for-Kinect-2.0 -BD:/GitHub/PCL-viewer-for-Kinect-2.0/build --check-stamp-file D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/GitHub/PCL-viewer-for-Kinect-2.0/CMakeLists.txt;D:\GitHub\PCL-viewer-for-Kinect-2.0\CMakeLists.txt;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeCCompiler.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Downloads\opencv\opencv\allbuild\OpenCVConfig-version.cmake;D:\Downloads\opencv\opencv\allbuild\OpenCVConfig.cmake;D:\Downloads\opencv\opencv\allbuild\OpenCVModules.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindCUDA.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindCUDA\select_compute_arch.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/GitHub/PCL-viewer-for-Kinect-2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HD:/GitHub/PCL-viewer-for-Kinect-2.0 -BD:/GitHub/PCL-viewer-for-Kinect-2.0/build --check-stamp-file D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/GitHub/PCL-viewer-for-Kinect-2.0/CMakeLists.txt;D:\GitHub\PCL-viewer-for-Kinect-2.0\CMakeLists.txt;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeCCompiler.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Downloads\opencv\opencv\allbuild\OpenCVConfig-version.cmake;D:\Downloads\opencv\opencv\allbuild\OpenCVConfig.cmake;D:\Downloads\opencv\opencv\allbuild\OpenCVModules.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindCUDA.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.7\Modules\FindCUDA\select_compute_arch.cmake;D:\GitHub\PCL-viewer-for-Kinect-2.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\GitHub\PCL-viewer-for-Kinect-2.0\main.CPP"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/GitHub/PCL-viewer-for-Kinect-2.0/build/ZERO_CHECK.vcxproj">
+      <Project>252011A4-F139-3D20-A0F1-47FC1C3399E2</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/GitHub/PCL-viewer-for-Kinect-2.0/build/kinect/AFEM_kinect_lib.vcxproj">
+      <Project>7233F919-6F2F-31C8-8B21-94594DD1BAE4</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/GitHub/PCL-viewer-for-Kinect-2.0/build/dll_includes.vcxproj">
+      <Project>23340A48-57B3-3E2E-A62A-552988CC1250</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

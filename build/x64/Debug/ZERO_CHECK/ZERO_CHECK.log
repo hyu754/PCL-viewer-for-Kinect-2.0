@@ -1,0 +1,9 @@
+﻿  Checking Build System
+  CMake does not need to re-run because D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/generate.stamp is up-to-date.
+  CMake is re-running because D:/GitHub/PCL-viewer-for-Kinect-2.0/build/kinect/CMakeFiles/generate.stamp is out-of-date.
+    the file 'D:/GitHub/PCL-viewer-for-Kinect-2.0/kinect/CMakeLists.txt'
+    is newer than 'D:/GitHub/PCL-viewer-for-Kinect-2.0/build/kinect/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/GitHub/PCL-viewer-for-Kinect-2.0/build

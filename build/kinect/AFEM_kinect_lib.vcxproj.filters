@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\kinect_source\AFEM_kinect_grabber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E63A45B8-ABEC-30A4-8272-20B021C91566}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

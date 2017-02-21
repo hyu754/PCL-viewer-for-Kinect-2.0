@@ -1,0 +1,5 @@
+D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/PCL_KINECT.dir
+D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/dll_includes.dir
+D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/ALL_BUILD.dir
+D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/ZERO_CHECK.dir
+D:/GitHub/PCL-viewer-for-Kinect-2.0/build/kinect/CMakeFiles/AFEM_kinect_lib.dir
