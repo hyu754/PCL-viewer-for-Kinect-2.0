@@ -265,9 +265,6 @@ CUDA_nvcuvenc_LIBRARY:FILEPATH=CUDA_nvcuvenc_LIBRARY-NOTFOUND
 //"nvcuvid" library
 CUDA_nvcuvid_LIBRARY:FILEPATH=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v7.5/lib/x64/nvcuvid.lib
 
-//The directory containing a CMake configuration file for KinectSDK2.
-KinectSDK2_DIR:PATH=KinectSDK2_DIR-NOTFOUND
-
 //Path where debug 3rdparty OpenCV dependencies are located
 OpenCV_3RDPARTY_LIB_DIR_DBG:PATH=
 

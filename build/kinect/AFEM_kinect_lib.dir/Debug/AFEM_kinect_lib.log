@@ -1,1 +1,7 @@
-﻿  AFEM_kinect_lib.vcxproj -> D:\GitHub\PCL-viewer-for-Kinect-2.0\build\kinect\Debug\AFEM_kinect_lib.dll
+﻿  Building Custom Rule D:/GitHub/PCL-viewer-for-Kinect-2.0/kinect/CMakeLists.txt
+  CMake does not need to re-run because D:\GitHub\PCL-viewer-for-Kinect-2.0\build\kinect\CMakeFiles\generate.stamp is up-to-date.
+  AFEM_kinect_grabber.cpp
+D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\kinect_source\AFEM_kinect_grabber.cpp(233): warning C4018: '<' : signed/unsigned mismatch
+D:\GitHub\PCL-viewer-for-Kinect-2.0\kinect\kinect_source\AFEM_kinect_grabber.cpp(234): warning C4018: '<' : signed/unsigned mismatch
+d:\github\pcl-viewer-for-kinect-2.0\kinect\kinect_source\afem_kinect_grabber.cpp(116): warning C4715: 'AFEM_KINECT::initialize_kinect' : not all control paths return a value
+  AFEM_kinect_lib.vcxproj -> D:\GitHub\PCL-viewer-for-Kinect-2.0\build\kinect\Debug\AFEM_kinect_lib.dll

@@ -1,1 +1,4 @@
-﻿  PCL_KINECT.vcxproj -> D:\GitHub\PCL-viewer-for-Kinect-2.0\build\Debug\PCL_KINECT.exe
+﻿  Building Custom Rule D:/GitHub/PCL-viewer-for-Kinect-2.0/CMakeLists.txt
+  CMake does not need to re-run because D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\generate.stamp is up-to-date.
+  main.CPP
+LINK : fatal error LNK1104: cannot open file 'kinect\Debug\AFEM_kinect_lib.lib'

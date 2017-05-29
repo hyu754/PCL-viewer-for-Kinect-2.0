@@ -1,7 +1,7 @@
 The system is: Windows - 6.3.9600 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler:  
-Build flags: /DWIN32;/D_WINDOWS;/W3
+Build flags: 
 Id flags: 
 
 The output was:
@@ -10,7 +10,7 @@ Microsoft (R) Build Engine version 12.0.31101.0
 [Microsoft .NET Framework, version 4.0.30319.42000]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 13/01/2017 2:55:03 p.m..
+Build started 24/05/2017 12:33:32 p.m..
 Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -36,7 +36,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.39
+Time Elapsed 00:00:00.67
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -47,7 +47,7 @@ The C compiler identification is MSVC, found in "D:/GitHub/PCL-viewer-for-Kinect
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
-Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+Build flags: 
 Id flags: 
 
 The output was:
@@ -56,7 +56,7 @@ Microsoft (R) Build Engine version 12.0.31101.0
 [Microsoft .NET Framework, version 4.0.30319.42000]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 13/01/2017 2:55:04 p.m..
+Build started 24/05/2017 12:33:33 p.m..
 Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\3.7.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -82,7 +82,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.39
+Time Elapsed 00:00:00.43
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -94,73 +94,73 @@ The CXX compiler identification is MSVC, found in "D:/GitHub/PCL-viewer-for-Kine
 Determining if the C compiler works passed with the following output:
 Change Dir: D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_e8b6f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_4d0c6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
 Microsoft (R) Build Engine version 12.0.31101.0
 [Microsoft .NET Framework, version 4.0.30319.42000]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 13/01/2017 2:55:04 p.m..
-Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_e8b6f.vcxproj" on node 1 (default targets).
+Build started 24/05/2017 12:33:33 p.m..
+Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_4d0c6.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_e8b6f.dir\Debug\".
+  Creating directory "cmTC_4d0c6.dir\Debug\".
   Creating directory "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_e8b6f.dir\Debug\cmTC_e8b6f.tlog\".
+  Creating directory "cmTC_4d0c6.dir\Debug\cmTC_4d0c6.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_e8b6f.dir\Debug\cmTC_e8b6f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_4d0c6.dir\Debug\cmTC_4d0c6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e8b6f.dir\Debug\\" /Fd"cmTC_e8b6f.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4d0c6.dir\Debug\\" /Fd"cmTC_4d0c6.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\testCCompiler.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e8b6f.dir\Debug\\" /Fd"cmTC_e8b6f.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4d0c6.dir\Debug\\" /Fd"cmTC_4d0c6.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\testCCompiler.c"
   
   testCCompiler.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_e8b6f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_e8b6f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_e8b6f.lib" /MACHINE:X64  /machine:x64 cmTC_e8b6f.dir\Debug\testCCompiler.obj
-  cmTC_e8b6f.vcxproj -> D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_e8b6f.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_4d0c6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_4d0c6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_4d0c6.lib" /MACHINE:X64  /machine:x64 cmTC_4d0c6.dir\Debug\testCCompiler.obj
+  cmTC_4d0c6.vcxproj -> D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_4d0c6.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_e8b6f.dir\Debug\cmTC_e8b6f.tlog\unsuccessfulbuild".
-  Touching "cmTC_e8b6f.dir\Debug\cmTC_e8b6f.tlog\cmTC_e8b6f.lastbuildstate".
-Done Building Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_e8b6f.vcxproj" (default targets).
+  Deleting file "cmTC_4d0c6.dir\Debug\cmTC_4d0c6.tlog\unsuccessfulbuild".
+  Touching "cmTC_4d0c6.dir\Debug\cmTC_4d0c6.tlog\cmTC_4d0c6.lastbuildstate".
+Done Building Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_4d0c6.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.42
+Time Elapsed 00:00:00.68
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_7c474.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_bbc8d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
 Microsoft (R) Build Engine version 12.0.31101.0
 [Microsoft .NET Framework, version 4.0.30319.42000]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 13/01/2017 2:55:05 p.m..
-Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_7c474.vcxproj" on node 1 (default targets).
+Build started 24/05/2017 12:33:34 p.m..
+Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_bbc8d.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_7c474.dir\Debug\".
+  Creating directory "cmTC_bbc8d.dir\Debug\".
   Creating directory "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_7c474.dir\Debug\cmTC_7c474.tlog\".
+  Creating directory "cmTC_bbc8d.dir\Debug\cmTC_bbc8d.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_7c474.dir\Debug\cmTC_7c474.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_bbc8d.dir\Debug\cmTC_bbc8d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7c474.dir\Debug\\" /Fd"cmTC_7c474.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_bbc8d.dir\Debug\\" /Fd"cmTC_bbc8d.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7c474.dir\Debug\\" /Fd"cmTC_7c474.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_bbc8d.dir\Debug\\" /Fd"cmTC_bbc8d.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
   
   CMakeCCompilerABI.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_7c474.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_7c474.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_7c474.lib" /MACHINE:X64  /machine:x64 cmTC_7c474.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_7c474.vcxproj -> D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_7c474.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_bbc8d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_bbc8d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_bbc8d.lib" /MACHINE:X64  /machine:x64 cmTC_bbc8d.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_bbc8d.vcxproj -> D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_bbc8d.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_7c474.dir\Debug\cmTC_7c474.tlog\unsuccessfulbuild".
-  Touching "cmTC_7c474.dir\Debug\cmTC_7c474.tlog\cmTC_7c474.lastbuildstate".
-Done Building Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_7c474.vcxproj" (default targets).
+  Deleting file "cmTC_bbc8d.dir\Debug\cmTC_bbc8d.tlog\unsuccessfulbuild".
+  Touching "cmTC_bbc8d.dir\Debug\cmTC_bbc8d.tlog\cmTC_bbc8d.lastbuildstate".
+Done Building Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_bbc8d.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
@@ -172,34 +172,34 @@ Time Elapsed 00:00:00.41
 Determining if the CXX compiler works passed with the following output:
 Change Dir: D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_946e3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_4bdba.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
 Microsoft (R) Build Engine version 12.0.31101.0
 [Microsoft .NET Framework, version 4.0.30319.42000]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 13/01/2017 2:55:06 p.m..
-Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_946e3.vcxproj" on node 1 (default targets).
+Build started 24/05/2017 12:33:35 p.m..
+Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_4bdba.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_946e3.dir\Debug\".
+  Creating directory "cmTC_4bdba.dir\Debug\".
   Creating directory "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_946e3.dir\Debug\cmTC_946e3.tlog\".
+  Creating directory "cmTC_4bdba.dir\Debug\cmTC_4bdba.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_946e3.dir\Debug\cmTC_946e3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_4bdba.dir\Debug\cmTC_4bdba.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_946e3.dir\Debug\\" /Fd"cmTC_946e3.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_4bdba.dir\Debug\\" /Fd"cmTC_4bdba.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_946e3.dir\Debug\\" /Fd"cmTC_946e3.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_4bdba.dir\Debug\\" /Fd"cmTC_4bdba.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   
   testCXXCompiler.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_946e3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_946e3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_946e3.lib" /MACHINE:X64  /machine:x64 cmTC_946e3.dir\Debug\testCXXCompiler.obj
-  cmTC_946e3.vcxproj -> D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_946e3.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_4bdba.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_4bdba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_4bdba.lib" /MACHINE:X64  /machine:x64 cmTC_4bdba.dir\Debug\testCXXCompiler.obj
+  cmTC_4bdba.vcxproj -> D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_4bdba.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_946e3.dir\Debug\cmTC_946e3.tlog\unsuccessfulbuild".
-  Touching "cmTC_946e3.dir\Debug\cmTC_946e3.tlog\cmTC_946e3.lastbuildstate".
-Done Building Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_946e3.vcxproj" (default targets).
+  Deleting file "cmTC_4bdba.dir\Debug\cmTC_4bdba.tlog\unsuccessfulbuild".
+  Touching "cmTC_4bdba.dir\Debug\cmTC_4bdba.tlog\cmTC_4bdba.lastbuildstate".
+Done Building Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_4bdba.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
@@ -211,40 +211,40 @@ Time Elapsed 00:00:00.43
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_46403.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_263d8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
 Microsoft (R) Build Engine version 12.0.31101.0
 [Microsoft .NET Framework, version 4.0.30319.42000]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 13/01/2017 2:55:06 p.m..
-Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_46403.vcxproj" on node 1 (default targets).
+Build started 24/05/2017 12:33:35 p.m..
+Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_263d8.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_46403.dir\Debug\".
+  Creating directory "cmTC_263d8.dir\Debug\".
   Creating directory "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_46403.dir\Debug\cmTC_46403.tlog\".
+  Creating directory "cmTC_263d8.dir\Debug\cmTC_263d8.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_46403.dir\Debug\cmTC_46403.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_263d8.dir\Debug\cmTC_263d8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_46403.dir\Debug\\" /Fd"cmTC_46403.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_263d8.dir\Debug\\" /Fd"cmTC_263d8.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
   Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_46403.dir\Debug\\" /Fd"cmTC_46403.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_263d8.dir\Debug\\" /Fd"cmTC_263d8.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "D:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
   
   CMakeCXXCompilerABI.cpp
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_46403.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_46403.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_46403.lib" /MACHINE:X64  /machine:x64 cmTC_46403.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_46403.vcxproj -> D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_46403.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_263d8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_263d8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_263d8.lib" /MACHINE:X64  /machine:x64 cmTC_263d8.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_263d8.vcxproj -> D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_263d8.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_46403.dir\Debug\cmTC_46403.tlog\unsuccessfulbuild".
-  Touching "cmTC_46403.dir\Debug\cmTC_46403.tlog\cmTC_46403.lastbuildstate".
-Done Building Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_46403.vcxproj" (default targets).
+  Deleting file "cmTC_263d8.dir\Debug\cmTC_263d8.tlog\unsuccessfulbuild".
+  Touching "cmTC_263d8.dir\Debug\cmTC_263d8.tlog\cmTC_263d8.lastbuildstate".
+Done Building Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_263d8.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.41
+Time Elapsed 00:00:00.44
 
 
 
@@ -252,40 +252,40 @@ Time Elapsed 00:00:00.41
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_397fe.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_2aa4d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
 Microsoft (R) Build Engine version 12.0.31101.0
 [Microsoft .NET Framework, version 4.0.30319.42000]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 13/01/2017 2:55:07 p.m..
-Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_397fe.vcxproj" on node 1 (default targets).
+Build started 24/05/2017 12:33:36 p.m..
+Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_2aa4d.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_397fe.dir\Debug\".
+  Creating directory "cmTC_2aa4d.dir\Debug\".
   Creating directory "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_397fe.dir\Debug\cmTC_397fe.tlog\".
+  Creating directory "cmTC_2aa4d.dir\Debug\cmTC_2aa4d.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_397fe.dir\Debug\cmTC_397fe.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_2aa4d.dir\Debug\cmTC_2aa4d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_397fe.dir\Debug\\" /Fd"cmTC_397fe.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\feature_tests.cxx"
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_2aa4d.dir\Debug\\" /Fd"cmTC_2aa4d.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\feature_tests.cxx"
   Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_397fe.dir\Debug\\" /Fd"cmTC_397fe.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\feature_tests.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_2aa4d.dir\Debug\\" /Fd"cmTC_2aa4d.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\feature_tests.cxx"
   
   feature_tests.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_397fe.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_397fe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_397fe.lib" /MACHINE:X64  /machine:x64 cmTC_397fe.dir\Debug\feature_tests.obj
-  cmTC_397fe.vcxproj -> D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_397fe.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_2aa4d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_2aa4d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/PCL-viewer-for-Kinect-2.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_2aa4d.lib" /MACHINE:X64  /machine:x64 cmTC_2aa4d.dir\Debug\feature_tests.obj
+  cmTC_2aa4d.vcxproj -> D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_2aa4d.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_397fe.dir\Debug\cmTC_397fe.tlog\unsuccessfulbuild".
-  Touching "cmTC_397fe.dir\Debug\cmTC_397fe.tlog\cmTC_397fe.lastbuildstate".
-Done Building Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_397fe.vcxproj" (default targets).
+  Deleting file "cmTC_2aa4d.dir\Debug\cmTC_2aa4d.tlog\unsuccessfulbuild".
+  Touching "cmTC_2aa4d.dir\Debug\cmTC_2aa4d.tlog\cmTC_2aa4d.lastbuildstate".
+Done Building Project "D:\GitHub\PCL-viewer-for-Kinect-2.0\build\CMakeFiles\CMakeTmp\cmTC_2aa4d.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.44
+Time Elapsed 00:00:00.43
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
